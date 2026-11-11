@@ -1,0 +1,19 @@
+[project]
+name = "phase0-first-query"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mohamed Abouelela", email = "mohamed.abouelela1988@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "duckdb>=2.0.0",
+]
+
+[project.scripts]
+phase0-first-query = "phase0_first_query:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
